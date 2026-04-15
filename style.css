@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: solid rebeccapurple 2px; */
+}
+
+:root {
+    --background: #F7EFF7;
+    --principale: #6F448B;
+    --secondaire: #FFFFFF;
+    --text: #23152D;
+
+}
+
+header {
+    background-image: url(assets/architecte-interieur/Mood.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+
+    align-items: center;
+    flex-direction: column;
+
+}
+
+nav {
+    background-color: #f7eff785;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 15vh;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: CENTER;
+    justify-content: center;
+    text-decoration: none;
+    gap: 30px;
+    list-style: none;
+    margin-right: 30px; 
+    padding: 0px 15px;
+
+}
+
+nav ul li a {
+    text-decoration-line: 1px var(--principale);
+    color: var(--text);
+}
+
+.container {
+    width: 1080px;
+    margin: auto;
+}
+
+.btncontacte {
+    padding: 8px 20px;
+    background-color: var(--principale);
+    border-radius: 12px;
+    color: var(--secondaire);
+}
+
+.hero {
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center
+}
+
+.divhero {
+    margin-bottom: 127px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+
+
+}
+
+h1 {
+    color: var(--text);
+    font-family: "Poltawski Nowy", serif;
+}
+
+.logo {
+    
+}
+
+.divider {
+
+    height: 1.5px;
+    width: 80%;
+    background: linear-gradient(90deg, #e6646512, #17031a, #0a0b1500);
+    margin-bottom: 13px;
+}
+.S2{
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+    font-family: "Poltawski Nowy", serif;
+}
