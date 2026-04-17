@@ -262,3 +262,31 @@ h3 {
     margin-bottom: 35px;
 
 }
+.sectionBorder{
+    border: solid 1px #6f448b52;
+}
+.sectionAvis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divAvis{
+        display: flex;
+    flex-direction: row;
+    width: 1080px;
+    margin: auto;
+    gap: 34px
+}
+.articleAvis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    border: solid 1px #9f20f2;
+    background-color: white;
+    padding: 25px;
+    width: 100%;
+    box-shadow: 0 5px 20px #65457a;
+}
