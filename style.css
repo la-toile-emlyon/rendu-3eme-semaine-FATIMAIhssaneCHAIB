@@ -55,6 +55,10 @@ nav ul {
 
 }
 
+a:hover {
+    text-decoration: underline white;
+}
+
 nav ul li a {
     text-decoration-line: 1px var(--principale);
     color: var(--text);
@@ -145,7 +149,7 @@ h3 {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    
+
 }
 
 .contentColumn {
@@ -241,6 +245,8 @@ h3 {
     width: 50%;
 }
 
+
+
 .projet {
     height: 295px;
     display: flex;
@@ -258,27 +264,32 @@ h3 {
         padding: 32px;
     }
 }
-.marginProjet{
+
+.marginProjet {
     margin-bottom: 35px;
 
 }
-.sectionBorder{
+
+.sectionBorder {
     border: solid 1px #6f448b52;
 }
-.sectionAvis{
+
+.sectionAvis {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.divAvis{
-        display: flex;
+
+.divAvis {
+    display: flex;
     flex-direction: row;
     width: 1080px;
     margin: auto;
     gap: 34px
 }
-.articleAvis{
+
+.articleAvis {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -290,3 +301,45 @@ h3 {
     width: 100%;
     box-shadow: 0 5px 20px #65457a;
 }
+
+.contact {
+
+    width: 1080px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    border: solid 1px #9f20f2;
+    background-color: white;
+    padding: 25px;
+    width: 100%;
+    box-shadow: 0 5px 20px #230d31;
+    height: 60vh;
+    width: 39%;
+    padding: 0px 150px;
+    border-radius: 17px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+textarea {
+    height: 12vh;
+}
+
+input {
+    height: 5vh;
+}
+
